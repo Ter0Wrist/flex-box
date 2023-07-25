@@ -42,3 +42,29 @@
     color: #fff;
     filter: blur(px);
 }
+.tars{
+    display: flex;
+    padding: 60px;
+    gap: 30px;
+}
+.tar{
+    background-color: rgb(255, 118, 118);
+    border-radius: 30px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.tar_img{
+    height: 100%;
+    
+}
+.contenido{
+    padding-inline: 20px;
+}
+.tar_boton{
+    margin: 0;
+    padding: 0;
+    backdrop-filter: blur(5px);
+    background: transparent;
+}
